@@ -15,7 +15,11 @@ public class PlantPlaces4Controller {
 	public String start() {
 		return "start";
 	}
-
+	
+	/** Handle the / endpoint
+	 * 
+	 * @return
+	 */
 	@RequestMapping("/start")
 	public String index() {
 		return "start";
